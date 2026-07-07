@@ -1,0 +1,33 @@
+{
+  "name": "hespyrn-nocturne",
+  "displayName": "Hespyrn Nocturne",
+  "description": "A dark VS Code color theme converted from a JetBrains IDEA color scheme, tuned for Java, C++, YAML, HTML/CSS and Markdown.",
+  "version": "1.0.0",
+  "publisher": "Hespyrn",
+  "author": "Hespyrn",
+  "license": "UNLICENSED",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "idea",
+    "jetbrains",
+    "darcula",
+    "hespyrn",
+    "nocturne"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hespyrn Nocturne",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hespyrn-nocturne-color-theme.json"
+      }
+    ]
+  }
+}
