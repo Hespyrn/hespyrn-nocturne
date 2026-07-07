@@ -18,7 +18,6 @@ Hespyrn Nocturne 保留了 IDEA / JetBrains 系深色主题的沉静质感：灰
 
 ![YAML Preview](./screenshots/yaml.png)
 
-
 ## 为什么做这个主题
 
 我平时很喜欢 JetBrains IDEA 里的这套暗色观感，但在 VS Code 里一直找不到完全顺眼的替代品。
