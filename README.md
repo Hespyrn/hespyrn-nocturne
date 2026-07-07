@@ -18,12 +18,6 @@ Hespyrn Nocturne 保留了 IDEA / JetBrains 系深色主题的沉静质感：灰
 
 ![YAML Preview](./screenshots/yaml.png)
 
-建议截图：
-
-- Java / Spring Boot
-- C++
-- YAML / application.yml
-- HTML / CSS / JavaScript
 
 ## 为什么做这个主题
 
