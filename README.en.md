@@ -6,14 +6,17 @@ Hespyrn Nocturne keeps the calm visual feeling of IDEA / JetBrains dark themes: 
 
 ## Preview
 
-> Add screenshots here after installing the theme.
+### Java
 
-Recommended screenshot examples:
+![Java Preview](./screenshots/java.png)
 
-- Java / Spring Boot
-- C++
-- YAML / application.yml
-- HTML / CSS / JavaScript
+### C++
+
+![C++ Preview](./screenshots/cpp.png)
+
+### YAML
+
+![YAML Preview](./screenshots/yaml.png)
 
 ## Why I Made This Theme
 
