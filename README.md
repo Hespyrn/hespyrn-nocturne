@@ -6,7 +6,17 @@ Hespyrn Nocturne 保留了 IDEA / JetBrains 系深色主题的沉静质感：灰
 
 ## 预览
 
-> 可以在这里放几张截图。
+### Java
+
+![Java Preview](./screenshots/java.png)
+
+### C++
+
+![C++ Preview](./screenshots/cpp.png)
+
+### YAML
+
+![YAML Preview](./screenshots/yaml.png)
 
 建议截图：
 
