@@ -510,6 +510,12 @@
     {
       "name": "Java package/import paths",
       "scope": [
+        "storage.modifier.package.java",
+        "storage.modifier.import.java",
+        "meta.package.java storage.modifier",
+        "meta.import.java storage.modifier",
+        "meta.package.java storage.modifier.package.java",
+        "meta.import.java storage.modifier.import.java",
         "meta.package.java entity.name.namespace",
         "meta.import.java entity.name.namespace",
         "meta.package.java storage.type.java",
@@ -537,6 +543,21 @@
       ],
       "settings": {
         "foreground": "#b5b6e3",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Java package/import keywords",
+      "scope": [
+        "keyword.other.package.java",
+        "keyword.other.import.java",
+        "keyword.control.package.java",
+        "keyword.control.import.java",
+        "meta.package.java keyword.other.package.java",
+        "meta.import.java keyword.other.import.java"
+      ],
+      "settings": {
+        "foreground": "#cf8e6d",
         "fontStyle": ""
       }
     },
@@ -724,6 +745,12 @@
     "*.readonly": {
       "foreground": "#c77dbb",
       "fontStyle": "italic"
-    }
+    },
+    "namespace:java": {
+      "foreground": "#bcbec4",
+      "fontStyle": ""
+    },
+    "type:java": "#b5b6e3",
+    "class:java": "#b5b6e3"
   }
 }
