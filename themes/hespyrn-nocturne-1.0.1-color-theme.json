@@ -688,6 +688,25 @@
         "foreground": "#bcbec4",
         "fontStyle": ""
       }
+    },
+    {
+      "name": "Java type references",
+      "scope": [
+        "storage.type.java",
+        "storage.type.object.array.java",
+        "storage.type.generic.java",
+        "entity.other.inherited-class.java"
+      ],
+      "settings": {
+        "foreground": "#B5B6E3"
+      }
+    },
+    {
+      "name": "Java implemented interfaces",
+      "scope": "meta.definition.class.implemented.interfaces.java entity.other.inherited-class.java",
+      "settings": {
+        "foreground": "#8EB6C3"
+      }
     }
   ],
   "semanticTokenColors": {
@@ -744,13 +763,26 @@
     },
     "*.readonly": {
       "foreground": "#c77dbb",
-      "fontStyle": "italic"
+      "italic": false
     },
     "namespace:java": {
       "foreground": "#bcbec4",
       "fontStyle": ""
     },
     "type:java": "#b5b6e3",
-    "class:java": "#b5b6e3"
+    "class:java": "#b5b6e3",
+    "method.static:java": {
+      "italic": false
+    },
+    "property.static:java": {
+      "italic": false
+    },
+    "interface:java": "#8EB6C3",
+    "method.static:cpp": {
+      "italic": false
+    },
+    "property.static:cpp": {
+      "italic": false
+    }
   }
 }
