@@ -65,7 +65,7 @@ Hespyrn Nocturne 保留了 IDEA / JetBrains 系深色主题的沉静质感：灰
 
 ```text
 Themes: Hespyrn Nocturne, Hespyrn Evernight
-Author: Hespyrn, with ChatGPT
+Author: Hespyrn
 ```
 
 ## 配色表
@@ -97,7 +97,6 @@ JetBrains IDE 和 VS Code 的语法 token 体系并不完全一致，所以不�
 
 - 发布初始 Release 版本。
 - 主题命名为 `Hespyrn Nocturne`。
-- 作者标注为 `Hespyrn, with ChatGPT`。
 - 调整 Java、C++、YAML 和常见编辑器 UI 配色。
 - 修正数字字面量斜体问题。
 - 调整 YAML key 颜色。

@@ -67,7 +67,7 @@ That process became **Hespyrn Nocturne**.
 
 ```text
 Themes: Hespyrn Nocturne, Hespyrn Evernight
-Author: Hespyrn, with ChatGPT
+Author: Hespyrn
 ```
 
 ## Color Palette
@@ -99,7 +99,6 @@ JetBrains IDEs and VS Code use different token systems, so syntax colors may not
 
 - Initial release version.
 - Renamed theme to `Hespyrn Nocturne`.
-- Set author to `Hespyrn, with ChatGPT`.
 - Added refined syntax colors for Java, C++, YAML, and common editor UI elements.
 - Fixed numeric literals so they are not italic.
 - Adjusted YAML key colors.
