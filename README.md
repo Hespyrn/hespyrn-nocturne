@@ -1,10 +1,13 @@
 # Hespyrn Nocturne
 
-一个从 JetBrains IDEA 配色方案转换并重新调整而来的 VS Code 深色主题。
+一个包含两套深色配色的 VS Code 扩展。
+
+- **Hespyrn Nocturne** 延续从 JetBrains IDEA 调整而来的配色。[主题文件](./themes/hespyrn-nocturne-1.0.1-color-theme.json)
+- **Hespyrn Evernight（永夜）** 参考 Visual Studio 2026 的编辑区、侧栏、标签栏和语法高亮。[主题文件](./themes/hespyrn-evernight-color-theme.json)
 
 Hespyrn Nocturne 保留了 IDEA / JetBrains 系深色主题的沉静质感：灰黑色背景、暖橙色关键字、蓝色函数、绿色字符串，以及柔和的紫色类型与成员变量。它不是一个追求强烈对比度的主题，而是希望在长时间写代码时保持舒服、清晰、安静。
 
-## 预览
+## Nocturne 预览
 
 ### Java
 
@@ -50,43 +53,45 @@ Hespyrn Nocturne 保留了 IDEA / JetBrains 系深色主题的沉静质感：灰
 
 ### 从 VSIX 安装
 
-1. 下载 `hespyrn-nocturne-1.0.0.vsix`。
+1. 从 [GitHub Releases](https://github.com/Hespyrn/hespyrn-nocturne/releases/latest) 下载 `.vsix`。
 2. 打开 VS Code。
 3. 按下 `Ctrl + Shift + P`。
 4. 输入并运行 `Extensions: Install from VSIX...`。
 5. 选择下载好的 `.vsix` 文件。
 6. 按下 `Ctrl + K Ctrl + T`。
-7. 选择 `Hespyrn Nocturne`。
+7. 选择 `Hespyrn Nocturne` 或 `Hespyrn Evernight`。
 
 ## 主题信息
 
 ```text
-Theme: Hespyrn Nocturne
+Themes: Hespyrn Nocturne, Hespyrn Evernight
 Author: Hespyrn, with ChatGPT
 ```
 
 ## 配色表
 
-| 元素 | 颜色 |
-| --- | --- |
-| 编辑器背景 | `#1e1f22` |
-| 默认前景色 | `#bcbec4` |
-| 关键字 | `#cf8e6d` |
-| 函数 / 方法 | `#56a8f5` |
-| 字符串 | `#6aab73` |
-| 注释 | `#67a37c` |
-| 类型 / 类 | `#b5b6e3` |
-| 字段 / 属性 | `#c77dbb` |
-| 数字 | `#2aacb8` |
-| 选区 | `#214283` |
+| 元素 | Nocturne | Evernight |
+| --- | --- | --- |
+| 编辑器背景 | `#1E1F22` | `#1E1E1E` |
+| 侧栏背景 | `#1E1F22` | `#282828` |
+| 状态栏背景 | `#2B2D30` | `#141414` |
+| 默认前景色 | `#BCBEC4` | `#BCBEC4` |
+| 普通注释 | `#67A37C` | `#57A64A` |
+| 类名 | `#B5B6E3` | `#BEB7FF` |
+| 编辑器选区 | `#214283` | `#004377` |
 
 ## 注意
 
-这个主题来源于 IDEA `.icls` 配色方案，并被适配到了 VS Code。
+Nocturne 来源于 IDEA `.icls` 配色方案。Evernight 在 VS Code 中对应 Visual Studio 的语法分类。
 
 JetBrains IDE 和 VS Code 的语法 token 体系并不完全一致，所以不同语言、不同插件下的颜色不会做到 100% 完全一致。当前版本更偏向实际可用性和整体观感，而不是强行逐项还原。
 
 ## 更新记录
+
+### 1.0.3
+
+- 在同一个扩展中加入 Hespyrn Evernight，安装一次即可在两套主题间切换。
+- Evernight 对齐 Visual Studio 2026 的编辑区背景、注释色以及 C++、C# 和 Python 的主要语法色。
 
 ### 1.0.0
 

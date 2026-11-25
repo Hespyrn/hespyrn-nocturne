@@ -1,8 +1,8 @@
 {
-  "name": "hespyrn-nocturne",
+  "name": "hespyrn-nocturne-theme",
   "displayName": "Hespyrn Nocturne",
-  "description": "A calm IDEA-inspired dark theme for VS Code.",
-  "version": "1.0.1",
+  "description": "Two dark VS Code themes: IDEA-inspired Nocturne and Visual Studio-inspired Evernight.",
+  "version": "1.0.3",
   "publisher": "Hespyrn",
   "author": "Hespyrn",
   "license": "MIT",
@@ -17,6 +17,8 @@
     "idea",
     "jetbrains",
     "nocturne",
+    "evernight",
+    "visual studio",
     "hespyrn"
   ],
   "engines": {
@@ -31,6 +33,11 @@
         "label": "Hespyrn Nocturne",
         "uiTheme": "vs-dark",
         "path": "./themes/hespyrn-nocturne-1.0.1-color-theme.json"
+      },
+      {
+        "label": "Hespyrn Evernight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hespyrn-evernight-color-theme.json"
       }
     ]
   }
